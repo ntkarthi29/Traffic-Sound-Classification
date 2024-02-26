@@ -5,7 +5,7 @@ import librosa
 import numpy as np
 
 # Load the LSTM model
-model = load_model('your_model.h5')
+model = load_model('lstm_model.h5')
 
 # Function to preprocess audio data
 def preprocess_audio(audio_file):
